@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 24px;
+  color: #000;
+  background: #fff;
+  font-family: "Castoro", serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: blue;
+}
+
+.font-l {
+  font-size: 40px;
+}
+
+.font-m {
+  font-size: 32px;
+}
+
+.font-s {
+  font-size: 20px;
+}
+
+.font-xl {
+  font-size: 128px;
+}
+
+.lh-l {
+  line-height: 192px;
+}
+
+.lh-m {
+  line-height: 60px;
+}
+
+.lh-s {
+  line-height: 48px;
+}
+
+.primary {
+  color: blue;
+}
+
+.secondary {
+  background: #EFEFEF;
+}
+
+.danger {
+  color: #AE0000;
+}
+
+.mb-l {
+  margin-bottom: 40px;
+}
+
+.mb-m {
+  margin-bottom: 16px;
+}
+
+.mb-sm {
+  margin-bottom: 12px;
+}
+
+.mb-s {
+  margin-bottom: 8px;
+}
+
+.pos-a {
+  position: absolute;
+}
+
+.pos-r {
+  position: relative;
+}
+
+.df {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jcc {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jcsb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aic {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.bd-b {
+  border-bottom: 3px solid #AE0000;
+}
+
+.gary {
+  color: #949494;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 160px;
+}
+.header h1 {
+  letter-spacing: 12px;
+}
+.header img {
+  display: block;
+  margin: 0 auto;
+}
+.header h2 {
+  margin-right: 14px;
+  width: 622px;
+  margin-left: auto;
+}
+
+.secondary .intro {
+  padding: 48px 0;
+}
+.secondary .intro p {
+  width: 636px;
+  margin-left: auto;
+}
+
+.content {
+  padding-top: 80px;
+  padding-bottom: 160px;
+}
+.content .content_data {
+  width: 636px;
+}
+
+.footer {
+  padding: 64px 0;
+  background: #000;
+}
+.footer img {
+  width: 64px;
+}
