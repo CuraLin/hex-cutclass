@@ -317,6 +317,9 @@ a:hover {
   padding: 64px 0;
   background: #000;
 }
+.footer li {
+  display: inline-block;
+}
 .footer img {
   width: 64px;
 }
